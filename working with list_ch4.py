@@ -26,3 +26,7 @@ for item in range(11):
     newItem= item ** 2
     ls.append(newItem)
 print(ls)
+
+#list comprehension 
+squares=[value**2 for value in range(15)]
+print(squares)
