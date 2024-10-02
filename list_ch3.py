@@ -25,3 +25,6 @@ print(l)
 print(sorted(l)) #sorts list temporily
 l.sort(reverse=True) #sort() sorts permanently
 print(l)
+
+#getting length with len()
+print(len(l))
