@@ -30,3 +30,21 @@ print(ls)
 #list comprehension 
 squares=[value**2 for value in range(15)]
 print(squares)
+
+ls=[]
+for value in range(21):
+    ls.append(value **3)
+print(ls)
+
+#looping through a slice
+peoples=['joel','john','jobort','javid']
+for people in peoples[:3]:
+    print(people.capitalize())
+
+food=['d','c','f','g','s']
+newF=food[:]
+print(id(newF),id(food))
+
+#tuple uses () and cant change items
+tup=(2,3,4)
+print(tup)
